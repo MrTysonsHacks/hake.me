@@ -1,11 +1,11 @@
---Author: Twitch
+--Author: Neil Tyson
 local Bristleback = {}
 
-Bristleback.optionEnable = Menu.AddOption({ "Hero Specific", "Bristleback. Script By Twitch"}, "Enabled", "Script by Twitch")
-Bristleback.optionGoo = Menu.AddOption({ "Hero Specific", "Bristleback. Script By Twitch"}, "Auto Nasal Good", "")
-Bristleback.optionQuill = Menu.AddOption({ "Hero Specific", "Bristleback. Script By Twitch"}, "Auto Quill", "")
-Bristleback.optionKey = Menu.AddKeyOption({ "Hero Specific", "Bristleback. Script By Twitch"}, "Key", Enum.ButtonCode.KEY_F)
-Bristleback.optionVersion = Menu.AddOption({ "Hero Specific","Bristleback. Script By Twitch" }, "Version", "Author: Twitch", 1, 1, 1)
+Bristleback.optionEnable = Menu.AddOption({ "Hero Specific", "Bristleback. Script By Neil Tyson"}, "Enabled", "Script by Neil Tyson")
+Bristleback.optionGoo = Menu.AddOption({ "Hero Specific", "Bristleback. Script By Neil Tyson"}, "Auto Nasal Good", "")
+Bristleback.optionQuill = Menu.AddOption({ "Hero Specific", "Bristleback. Script By Neil Tyson"}, "Auto Quill", "")
+Bristleback.optionKey = Menu.AddKeyOption({ "Hero Specific", "Bristleback. Script By Neil Tyson"}, "Key", Enum.ButtonCode.KEY_F)
+Bristleback.optionVersion = Menu.AddOption({ "Hero Specific","Bristleback. Script By Neil Tyson" }, "Version", "Author: Neil Tyson", 1, 1, 1)
 
 Bristleback.font = Renderer.LoadFont("Tahoma", 20, Enum.FontWeight.EXTRABOLD)
 
