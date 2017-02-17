@@ -54,7 +54,7 @@ function Huskar.innervitality(myHero, optionThreshold)
     if Entity.GetHealth(myHero) > 0 and Entity.GetHealth(myHero) < min and percentage <= optionThreshold then
        	min = Entity.GetHealth(myHero)
     end
-    if(min < 99999) and Menu.IsEnabled(Huskar.optionInnerVitality) then
+    if(min < 99999) and Menu.IsEnabled(Huskar.optionInnerVitality) and Ability.IsCastable(innervitality, myMana) then
      Ability.CastTarget(innervitality, myHero)
      return
    end
