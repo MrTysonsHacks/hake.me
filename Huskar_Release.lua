@@ -47,7 +47,7 @@ end
 
 function Huskar.innervitality(myHero, optionThreshold)
 	local min = 99999
-
+	local myMana = NPC.GetMana(myHero)
 	local innervitality = NPC.GetAbilityByIndex(myHero, 0)
    	local percentage = math.floor(Entity.GetHealth(myHero) / Entity.GetMaxHealth(myHero) * 100)
 
