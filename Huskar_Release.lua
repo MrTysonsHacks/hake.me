@@ -10,7 +10,7 @@ Huskar.optionBurningSpear = Menu.AddOption({ "Hero Specific", "Huskar. Script By
 Huskar.optionBlademail = Menu.AddOption({ "Hero Specific", "Huskar. Script By Neil Tyson"}, "Auto Blademail", "")
 Huskar.optionBlackKingBar = Menu.AddOption({ "Hero Specific", "Huskar. Script By Neil Tyson"}, "Auto Black King Bar", "")
 Huskar.optionKey = Menu.AddKeyOption({ "Hero Specific", "Huskar. Script By Neil Tyson"}, "Key", Enum.ButtonCode.KEY_F)
-Huskar.optionVersion = Menu.AddOption({ "Hero Specific","Huskar. Script By Neil Tyson" }, "Version", "Author: Neil deGrasse Tyson", 2, 2, 2)
+Huskar.optionVersion = Menu.AddOption({ "Hero Specific","Huskar. Script By Neil Tyson" }, "Version", "Author: Neil deGrasse Tyson", 3, 3, 3)
 
 Huskar.font = Renderer.LoadFont("Tahoma", 20, Enum.FontWeight.EXTRABOLD)
 
